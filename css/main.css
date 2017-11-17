@@ -1,0 +1,100 @@
+.kuba {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background: red;
+  margin-bottom: 50px;
+}
+.blue_horizont {
+  height: 80px;
+  background: blue
+}
+.white_horizont {
+  height: 80px;
+  background: white
+}
+.triangle {
+  position: absolute;
+  top: 0;
+    width:50; 
+    height:50; 
+    border-top:200px solid transparent; 
+    border-left:330px solid red; 
+    border-bottom:200px solid transparent;
+   }
+.star {
+   position: absolute;
+  top: 180px;
+  left: 55px;
+   display: block;
+   color: red;
+   width: 0px;
+   height: 0px;
+   border-right:  60px solid transparent;
+   border-bottom: 30px  solid white;
+   border-left:   60px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+.star:before {
+   border-bottom: 50px solid white;
+   border-left: 15px solid transparent;
+   border-right: 15px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -35px;
+   left: -36px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+}
+.star:after {
+   position: absolute;
+   display: block;
+   color: red;
+   top: 4px;
+   left: -64px;
+   width: 0px;
+   height: 0px;
+   border-right: 60px solid transparent;
+   border-bottom: 30px solid white;
+   border-left: 60px solid transparent;
+   -webkit-transform: rotate(-71deg);
+   -moz-transform:    rotate(-71deg);
+   -ms-transform:     rotate(-71deg);
+   -o-transform:      rotate(-71deg);
+   content: '';
+}
+#d-wrapper {
+background-color: red;
+  width: 600px;
+  height: 400px;
+  border: 1px solid red
+}
+.fon {
+  background-color: white;
+  width: 200px;
+  height: 400px;
+}
+
+#d-wrapper	.zig-zag-top:before{
+		background: 
+					linear-gradient(to bottom right, #fff 20px, red 20px, blue 20px,  transparent 0), 
+					linear-gradient(to bottom left, #fff 20px, transparent 0);
+        background-size: 32px 32px;
+        content: " ";
+        display: block;
+  position: relative;
+        height: 30px;	
+  width: px;
+top: -120px;
+  left: -90px;
+    transform: rotate(-90deg);
+ }
+
